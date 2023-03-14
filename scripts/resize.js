@@ -6,7 +6,7 @@ var typingp = document.getElementById('typingp');
         container.style.width = window.innerWidth * 0.35 + "px";
         container.style.height = container.style.width*0.5 + "px";   
         typing.style.fontSize = window.innerWidth*0.035 + "px"; 
-        typingp.style.fontSize = window.innerWidth*0.015 + "px";  
+        typingp.style.fontSize = window.innerWidth*0.013 + "px";  
 
     }
   

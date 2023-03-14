@@ -28,7 +28,7 @@ let typingTimeoutp;
       return;
     }
     
-    typingTimeoutp = setTimeout(typep, 100);
+    typingTimeoutp = setTimeout(typep, 50);
   }
 
 type();
