@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font:normal 75% Arial, Helvetica, sans-serif;
+    font-family: 'Consolas', monospace;
     font-size:30px;
     color:white;
   }
@@ -28,7 +28,7 @@ body {
     position: absolute;
     top: 60%;
     left: 90%;
-    opacity: 0.85;
+    opacity: 0.9;
     transform: translate(-50%, -50%);
     z-index:2;
   
@@ -89,4 +89,23 @@ body {
 
 .d-flex.flex-column a:hover i {
   transform:scale(1.8);
+}
+
+#color-trail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.color-trail-item {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #F9C461;
+  opacity: 0.3;
+  transition: transform 0.4s ease, opacity 0.4s ease;
 }
