@@ -14,7 +14,7 @@ particlesJS("particles-js", {
       "type": "circle",
       "stroke": {
         "width": 5,
-        "color": "#000000"
+        "color": "rgba(249, 196, 97, 0.3)"
       },
       "polygon": {
         "nb_sides": 9
@@ -48,7 +48,7 @@ particlesJS("particles-js", {
     "line_linked": {
       "enable": true,
       "distance": 140,
-      "color": "#ffffff",
+      "color": "#F9C461",
       "opacity": 0.4,
       "width": 1
     },

@@ -21,6 +21,7 @@ let typingTimeoutp;
 
   function typep() {
     const typingElementp = document.getElementById("typingp");
+    
     typingElementp.textContent = textp.slice(0, indexp++);
   
     if (indexp > textp.length) {
@@ -28,7 +29,7 @@ let typingTimeoutp;
       return;
     }
     
-    typingTimeoutp = setTimeout(typep, 100);
+    typingTimeoutp = setTimeout(typep, 50);
   }
 
 type();
