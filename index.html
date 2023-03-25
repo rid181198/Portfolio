@@ -2,7 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Ridhesh</title>
+  <title>
+    Ridhesh
+  </title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
@@ -11,38 +13,75 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Consolas&display=swap">
 
 </head>
+<div class="nav-container" style="position: fixed; top: 0; left: 0; padding-top:0; width:100%; z-index:4;">
+<nav class="navbar navbar-expand-md navbar-black bg-black shadow" style="background-color:black;">
+  <div class="container-fluid">
+  <a class="navbar-brand me-5 brand" style="font-size:1.8rem; color:white; width: 100px;" href="#"><strong><span>R</span><span>I</span><span>D</span><span>H</span><span>E</span><span>S</span><span>H</span></strong></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" id="navbarToggle">
+      <span class="navbar-toggler-icon"></span>
+  
+  </button>
 
+  <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link active navtext me-5 texts" style="color:white" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navtext me-5 texts" style="color:white">Project </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navtext texts" style="color:white">Blog </a>
+      </li>
+      </ul>
+  
+      
+      <ul class="navbar-nav ms-auto me-0">
+          <li class="nav-item me-5">
+              <a class="nav-link navtext texts" style="color:white" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link navtext texts" style="color:white" href="#">Contact Me</a>
+          </li>
+      </ul>
+     
+  </div>
+</div>
 
-<body id="particles-js" style="position:relative; z-index:1">
+</nav>
+</div>
+<body id="particles-js" style="position:relative">
   <div id="color-trail"></div>
 
-  <h4>Website in progress</h4>
-
-
-  <div class="container" style="position: absolute; top: 35%; left: 70%; transform: translate(-50%, -50%); height:10%;">
-    <h1 id="typing" class="inline-block" style="color:rgb(249, 196, 97); font-size:3.0rem"></h1>
-  </div>
   
-  <div class="container" style="position: absolute; top: 47%; left: 70%; transform: translate(-50%, -50%); height:10%; margin-left:0%">
-    <p id="typingp" class="inline-block" style="color:white; text-align:justify; width:50%; font-size:1.3rem"> </p>
-  </div>
+  
 
-  <div class="d-flex flex-column justify-content-center align-items-start ms-5 mt-5" style="position:absolute; z-index:2; top:50%; left:2%;transform: translate(-50%, -50%)">
-    <a href="mailto: ridheshgoti@gmail.com" class="me-4 mb-5 text-reset">
-      <i class="fab fa-google fa-1x" style="color:rgb(249, 196, 97)"></i>
+
+<div class="container main-page" style="position: absolute; top: 30%; left: 70%; transform: translate(-50%, -50%); height:10%;">
+  <h1 id="typing" class="inline-block" style="position: relative; color:rgb(249, 196, 97); font-size:3.0rem"></h1>
+</div>
+
+<div class="container main-page" style="position: absolute; top: 40%; left: 70%; transform: translate(-50%, -50%); height:10%; margin-left:0%">
+  <p id="typingp" class="inline-block" style="position: relative; color:white; text-align:justify; width:50%; font-size:1.3rem"> </p>
+  <div id="cursor"></div>
+</div>
+
+<div class="d-flex flex-column justify-content-center align-items-start ms-5 main-page" style="position:absolute; z-index:2; top:50%; left:2%;transform: translate(-50%, -50%)">
+  <a href="mailto: ridheshgoti@gmail.com" class="me-4 text-reset">
+    <i class="fab fa-google fa-1x" id="icons" style="color:rgb(249, 196, 97)"></i>
+  </a>
+    <a href="https://www.instagram.com/ridhesh98/" class="me-4 text-reset">
+    <i class="fab fa-instagram fa-1x" id="icons" style="color:rgb(249, 196, 97)"></i>
     </a>
-      <a href="https://www.instagram.com/ridhesh98/" class="me-4 mb-5 text-reset">
-      <i class="fab fa-instagram fa-1x" style="color:rgb(249, 196, 97)"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/ridhesh-goti-b01161170/" class="me-4 mb-5 text-reset">
-      <i class="fab fa-linkedin fa-1x" style="color:rgb(249, 196, 97)"></i>
-      </a>
-      <a href="https://github.com/rid181198" class="me-4 mb-5 text-reset">
-      <i class="fab fa-github fa-1x" style="color:rgb(249, 196, 97)"></i>
-      </a>
-  </div>
+    <a href="https://www.linkedin.com/in/ridhesh-goti-b01161170/" class="me-4 text-reset">
+    <i class="fab fa-linkedin fa-1x" id="icons" style="color:rgb(249, 196, 97)"></i>
+    </a>
+    <a href="https://github.com/rid181198" class="me-4 text-reset">
+    <i class="fab fa-github fa-1x" id="icons" style="color:rgb(249, 196, 97)"></i>
+    </a>
+</div>
 
-  <img src="./imgs/profile.png" alt="SVG Image" id="svg-image">
+<img src="./imgs/profile.png" alt="SVG Image" id="svg-image" style="position: absolute; top: 50%; left: 90%; transform: translate(-50%, -50%);">
 
 
 
@@ -57,6 +96,15 @@
   <script src="./scripts/resize.js"></script> 
   <script src="./scripts/typing.js"></script>
   <script src="./scripts/mouseColor.js"></script>
+  <script src="./scripts/charFont.js"></script>
+  <script>
+    const navbarToggle = document.getElementById('navbarToggle');
+    const body = document.body;
+  
+    navbarToggle.addEventListener('click', () => {
+      body.classList.toggle('navbar-open');
+    });
+  </script>
   
   
 
