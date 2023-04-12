@@ -131,6 +131,11 @@ body {
   transform: scale(1.1);
 }
 
+.whoamidesc,.whatidodesc,.whereamidesc{
+  display:none
+}
+
+
 @media (min-width: 400px) { 
 
   .navbar-toggler{
