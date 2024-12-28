@@ -1,6 +1,11 @@
 var texts = document.querySelectorAll('.texts');
-var btns = document.querySelectorAll('.btn');
+var btns = document.querySelectorAll('.btns');
 var descs = document.querySelectorAll('.desc');
+var labels = document.querySelectorAll('.labels');
+var ans = document.querySelectorAll('.ans');
+var mutes = document.querySelectorAll('.text-muted');
+var submits = document.querySelectorAll('.submit');
+
   
     function resizePlot() {
         var width = window.innerWidth;
@@ -18,6 +23,21 @@ var descs = document.querySelectorAll('.desc');
             element.style.fontSize =  35/(1 + 2.7182**(0.0015*(900-width))) + "px";
         })
         
+        labels.forEach(element=>{
+            element.style.fontSize =  40/(1 + 2.7182**(0.0013*(900-width))) + "px";
+        })
+
+        ans.forEach(element=>{
+            element.style.fontSize =  30/(1 + 2.7182**(0.0013*(900-width))) + "px";
+        })
+
+        mutes.forEach(element=>{
+            element.style.fontSize =  20/(1 + 2.7182**(0.0013*(900-width))) + "px";
+        })
+
+        submits.forEach(element=>{
+            element.style.fontSize =  40/(1 + 2.7182**(0.0013*(900-width))) + "px";
+        })
 
     }
   

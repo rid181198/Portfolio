@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>
-    About Me
+    Contact Me
   </title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -55,50 +55,28 @@
 <body id="particles-js" style="position:relative">
   <div id="color-trail"></div>
 
-
-<div class="d-flex flex-column main-page" style="position:absolute; z-index:2; top:10%; left:0%;transform: translate(0%, 0%); width:100%; padding:5%">
-    <a type="button" class="btn w-100 btns" onclick="whoamidesc()" style="border-color:#F9C461; margin-bottom:10%;color:#F9C461; "><strong>Who am I</strong></a>
-    <div class="whoamidesc desc">
-      <p style="text-align:justify">I love to work on the big data and developing cool ML models integreated with the application.
-        I am going to publish some of cool projects very soon in the Projects section. Please feel free to explor me through this 
-        platform. I would be happy to collaborate with people to work on the awesome projects related to the machine learning and data.
-      </p>
-
+<form action="#" method="POST" style="position:absolute; justify-content: center; z-index:2; top:15%; left:0%;transform: translate(0%, 0%); width:100%; padding:5%">
+    <div class="form-group">
+        <label for="emailID" class="labels" style="color:#F9C461"> <strong>Email Address</strong> </label>
+        <input type="email" class="form-control ans" id="emailID" aria-describedby="emailHelp" placeholder="Enter your email address">
+    </div>
+    <div class="form-group">
+        <label for="name" class="labels" style="color:#F9C461"> <strong>First Name</strong> </label>
+        <input type="text" class="form-control ans" id="firstname" placeholder="Enter your first name">
     </div>
 
-
-    <a type="button" class="btn w-100 btns" onclick="whatidodesc()" style="border-color:#F9C461;margin-bottom:10%; color:#F9C461;"><strong>What I do</strong></a>
-    <div class="whatidodesc texts">
-      
-      <p style="text-align:justify">My background is in Astrophysics and I used to study and work on 
-        the data realted to stars and galaxy. It is a cool subject but with less opportunities. Then 
-        I switched to the industry and got the hands-on experience with data science and initiated the personal
-        projects on ML and data related topics. You can browse through my projects where I put some 
-        key projects. Feel free to browse my github profile (it's a kind of messy!).
-
-        In my current role, I work on the insurance data and provide the client data analytics services.
-        I develop the R package, R shiny app, documentation, and present to the clients and provide the technical
-        support. 
-        
-        My current techs are in Python, R, SQL, HTML, Javascript, Git, Azure services, Docker, and currently I am 
-        learning GenAI LLM and development on Coursera. Soon I will be working on some of the models and publish the 
-        project.
-
-    </p>
-
-    </div>
-    <a type="button" class="btn w-100 btns" onclick="whereamidesc()" style="border-color:#F9C461;margin-bottom:10%;color:#F9C461; width:100%;"><strong>Where am I</strong></a>
-
-    
-    <div class="whereamidesc texts">
-      
-      <p style="text-align:justify">
-        Currently I am in Cologne, Germany but I cannot give you the exact location xD. The location is at 50 latitude and 7 longitude which is a little bit inaccurate. Find me!!
-      </p>
+    <div class="form-group">
+        <label for="name" class="labels" style="color:#F9C461"> <strong>Last Name</strong> </label>
+        <input type="text" class="form-control ans" id="lastname" placeholder="Enter your last name">
     </div>
 
-
-
+    <div class="form-group">
+        <label for="name" class="labels" style="color:#F9C461"> <strong>Description/Question</strong> </label>
+        <textarea type="text" class="form-control ans" id="description" placeholder="Enter your text" rows="5" style="background-color:black; color:#F9C461;">
+            </textarea>
+    </div>
+    <button type="submit" class="btn w-100 submit" style="border-color:#F9C461;margin-bottom:10%; width:100%;"><strong>SUBMIT</strong></button>
+</form>
 
 
 
