@@ -1,5 +1,5 @@
 const texth = "Hello, I'm Ridhesh!"; // the text you want to show
-const textp = "As a Data Science and Analytics enthusiast, I enjoy creating data models, visualizations, and neural network pipelines using popular Python libraries such as scikit-learn, TensorFlow, PyTorch, pandas and numpy. I also have experience working with Tableau and Power BI for data visualization. Additionally, I am currently practicing both frontend and backend development using HTML, CSS, JavaScript, and Flask in Python. My educational background is in Astrophysics, but I am passionate about working on both data science and astrophysics projects. If you share a similar interest, let's connect and explore opportunities to collaborate. "
+const textp = "I love to work on the big data and developing cool ML models integreated with the application. I am going to publish some of cool projects very soon in the Projects section. Please feel free to explor me through this platform. I would be happy to collaborate with people to work on the awesome projects related to the machine learning and data. "
 
 let index = 0;
   let typingTimeout;
