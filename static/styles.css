@@ -262,7 +262,7 @@ a:hover{
     display: flex;
     flex-direction: row;
     width: 90%; 
-    height: 160px;
+    height: 170px;
     border: 2px solid #F9C461;
     margin: 10px auto;
     overflow: hidden;
@@ -293,7 +293,7 @@ a:hover{
     display: flex;
     flex-direction: row;
     width: 90%; 
-    height: 270px;
+    height: 280px;
     border: 2px solid #F9C461;
     margin: 10px auto;
     overflow: hidden;
